@@ -1,6 +1,6 @@
-import './App.css';
+import './App.scss';
 import {Routes, Route} from "react-router-dom"
-import Home from './pages/Home/Home';
+import {HomeRoute} from './Routes/HomeRoute'
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
       </header>
       <div>
         <Routes>
-          <Route path="/home" element={<Home />} />
+          <Route path="/home" element={<HomeRoute />} />
         </Routes>
       </div>
     </div>

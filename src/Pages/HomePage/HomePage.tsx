@@ -4,12 +4,11 @@ import './home.scss'
 
 
 
-const HomePage = () => {
+export const HomePage = () => {
 
     return(
-        <div className="home-container">Home page changesss</div>
+        <div id="home-container">
+            <div className="title">Home page</div>
+        </div>
     )
 }
-
-
-export default HomePage
